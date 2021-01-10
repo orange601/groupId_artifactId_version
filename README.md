@@ -8,3 +8,6 @@ Maven의 groupId 와 artifactId, 그리고 version
   - 즉, 최소한 당신이 컨트롤하는 도메인 네임이어야 한다.
   - 하위 그룹은 얼마든지 추가할 수 있다.
   - 예: org.apache.maven, org.apache.commons
+* 프로젝트 구조를 사용하면 잘 구분되는 groupId를 만들 수 있다.
+  - 현재 프로젝트가 다중 모듈 프로젝트라면, 부모 groupId에 현재 프로젝트의 식별자를 추가하는 방식.
+  - 예: org.apache.maven, org.apache.maven.plugins, org.apache.maven.reporting
