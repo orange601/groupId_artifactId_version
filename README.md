@@ -1,7 +1,7 @@
 # groupId_artifactId_version
 Maven의 groupId 와 artifactId, 그리고 version
 
-### groupId
+## groupId
 * groupId는 당신의 프로젝트를 모든 프로젝트 사이에서 고유하게 식별하게 해 주는 것이다.
 * 따라서, groupId에는 네이밍 스키마를 적용하도록 한다.
   - groupId는 package 명명 규칙을 따르도록 한다.
@@ -12,7 +12,7 @@ Maven의 groupId 와 artifactId, 그리고 version
   - 현재 프로젝트가 다중 모듈 프로젝트라면, 부모 groupId에 현재 프로젝트의 식별자를 추가하는 방식.
   - 예: org.apache.maven, org.apache.maven.plugins, org.apache.maven.reporting
 
-### artifactId
+## artifactId
 * artifactId는 버전 정보를 생략한 jar 파일의 이름이다.
   - 이름은 원하는 것으로 아무거나 정해도 괜찮다.
   - 단, 소문자로만 작성하도록 한다.
